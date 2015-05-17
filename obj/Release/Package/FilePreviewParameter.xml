@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="jarvisassistant" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\SQLBI_Agronet\\documents\\visual\ studio\ 2013\\Projects\\Jarvis\\Jarvis\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\SQLBI_Agronet\\documents\\visual\ studio\ 2013\\Projects\\Jarvis\\Jarvis\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:ng7fcvt8gm.database.windows.net,1433;Initial Catalog=Jarvis007_db;User ID=jarvis007@ng7fcvt8gm;Password='q9g!Z2HpSV'" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\SQLBI_Agronet\\documents\\visual\ studio\ 2013\\Projects\\Jarvis\\Jarvis\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="LocalConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Jarvis-20150516015044.mdf;Initial Catalog=aspnet-Jarvis-20150516015044;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\SQLBI_Agronet\\documents\\visual\ studio\ 2013\\Projects\\Jarvis\\Jarvis\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalConnection']/@connectionString" />
+  </parameter>
+</parameters>

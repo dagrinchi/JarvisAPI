@@ -29,5 +29,7 @@ namespace Jarvis.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Jarvis.Models.DeviceStatus> DeviceStatus { get; set; }
     }
 }
